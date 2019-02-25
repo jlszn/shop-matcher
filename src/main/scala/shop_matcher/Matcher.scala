@@ -1,41 +1,29 @@
 package shop_matcher
 
-// read from json to case class
+import io.circe.Decoder
+import io.circe.generic.extras.Configuration
+import io.circe.generic.extras.semiauto.deriveDecoder
+import shop_matcher.domain.{FeatureCollection, MatcherError, Shop, UserLocation}
 
-// calculate distance to user
+// We would like to match the users with the most applicable shops based on the distance as well as on the frequency they pass by.
+// Also if possible  create a classifier according to the age.
 
-// make case classes to represent distance (Very Close, Close, etc.)
-// make case classes to represent passing-by frequency
 
-/*{
-    "type":"FeatureCollection",
-    "features":[
-        {
-            "type":"Feature",
-            "geometry":{
-                "type":"Point",
-                "coordinates":[
-                    -1.7717988686592332,
-                    48.602742696725414
-                ]
-            },
-            "properties":{
-                "gml_id":"shop.1",
-                "shop_id":"1",
-                "shop_name":"McDonalds",
-                "insee_comm":"35361",
-                "por_x":297025,
-                "por_y":2408370
-            }
-        }
-    ]
-}*/
+object Matcher {
 
-// We also have  a file with people's trajectory (userid,lat,lon,timestamp,age)
-// We would like to match the users with the most applicable shops based on the distance as well as on the frequency  they pass by.
+  // dtos ?
 
-case class Shop()
+  // how do I match one to another
 
-case class User()
+  // calculate medium passing-by distance and match it to case objects
 
-object Matcher
+  // make case classes representing passing-by frequency ()
+  implicit val config: Configuration = Configuration.default.withSnakeCaseMemberNames.withDefaults
+  implicit val userPropertiesDecoder: Decoder[UserLocation] = deriveDecoder
+  implicit val shopPropertiesDecoder: Decoder[Shop] = deriveDecoder
+
+  val shops: ParsedCollection[Shop] = Parser.decodeGeoJson[Shop]("test-data/shops.geojson")
+  val userLocations: ParsedCollection[UserLocation] = Parser.decodeGeoJson[UserLocation]("test-data/users.geojson")
+
+
+}

@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.737868314868884,
+          -73.99672865867615
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.1",
+        "shop_id": "1",
+        "shop_name": "McDonalds",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.744989177040736,
+          -73.98682594299316
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.2",
+        "shop_id": "2",
+        "shop_name": "Starbucks",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74261970536702,
+          -73.99271607398987
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.3",
+        "shop_id": "3",
+        "shop_name": "Best buy",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    }
+  ]
+}

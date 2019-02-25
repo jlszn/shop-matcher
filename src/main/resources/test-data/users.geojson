@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.742294537913544,
+          -73.99321958555902
+        ]
+      },
+      "properties": {
+        "user_id": "1",
+        "user_name": "Ann Smith",
+        "timestamp": "2019-01-01T19:43:37.511Z",
+        "date_of_birth": "1995-01-01T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74198361317637,
+          -73.99343416228021
+        ]
+      },
+      "properties": {
+        "user_id": "1",
+        "user_name": "Ann Smith",
+        "timestamp": "2019-01-01T19:43:47.511Z",
+        "date_of_birth": "1995-05-05T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74147230830893,
+          -73.99385071148532
+        ]
+      },
+      "properties": {
+        "user_id": "1",
+        "user_name": "Ann Smith",
+        "timestamp": "2019-01-01T19:43:57.511Z",
+        "date_of_birth": "1995-05-05T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.741416456385615,
+          -73.99137105250497
+        ]
+      },
+      "properties": {
+        "user_id": "2",
+        "user_name": "Sam Johnson",
+        "timestamp": "2019-01-01T19:43:37.511Z",
+        "date_of_birth": "1963-08-08T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.741962287590496,
+          -73.99264107832244
+        ]
+      },
+      "properties": {
+        "user_id": "2",
+        "user_name": "Sam Johnson",
+        "timestamp": "2019-01-01T19:43:47.511Z",
+        "date_of_birth": "1963-08-08T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.742714194834114,
+          -73.9928878415518
+        ]
+      },
+      "properties": {
+        "user_id": "2",
+        "user_name": "Sam Johnson",
+        "timestamp": "2019-01-01T19:43:57.511Z",
+        "date_of_birth": "1963-08-08T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.743912696455205,
+          -73.99315069803527
+        ]
+      },
+      "properties": {
+        "user_id": "3",
+        "user_name": "Mary Collins",
+        "timestamp": "2019-01-01T19:43:37.511Z",
+        "date_of_birth": "1984-06-06T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74362902867256,
+          -73.99250318564953
+        ]
+      },
+      "properties": {
+        "user_id": "3",
+        "user_name": "Mary Collins",
+        "timestamp": "2019-01-01T19:44:47.511Z",
+        "date_of_birth": "1984-06-06T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.74314944136035,
+          -73.9912747339207
+        ]
+      },
+      "properties": {
+        "user_id": "3",
+        "user_name": "Mary Collins",
+        "timestamp": "2019-01-01T19:57:20.511Z",
+        "date_of_birth": "1984-06-06T00:00:00.511Z",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    }
+  ]
+}
