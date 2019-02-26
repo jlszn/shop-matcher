@@ -1,8 +1,9 @@
-package shop_matcher.domain
+package shopmatcher.domain
 
 import java.time.Instant
 
 import cats.data.NonEmptyList
+import shopmatcher.Point
 
 sealed trait Properties
 
@@ -21,8 +22,15 @@ case class UserLocation(userId: Long,
                         porX: Int,
                         porY: Int) extends Properties
 
-case class Geometry(`type`: String, coordinates: (Double, Double))
+case class Geometry(`type`: String, coordinates: Point)
 
 case class Feature[A <: Properties](`type`: String, geometry: Geometry, properties: A)
 
 case class FeatureCollection[A <: Properties](`type`: String, features: NonEmptyList[Feature[A]])
+
+
+sealed trait Distance // distance of passing by
+
+case object Close extends Distance
+
+case object NotClose extends Distance
