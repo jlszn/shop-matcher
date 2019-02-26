@@ -8,11 +8,6 @@ import shopmatcher.domain._
 import shopmatcher.utils.DistanceUtils._
 import shopmatcher.utils.Parser
 
-// Also if possible  create a classifier according to the age.
-
-// find places that each person has been in list[(user, list[shops])]
-// list.groupBy(_._1.age)
-
 object Matcher {
 
   implicit val config: Configuration = Configuration.default.withSnakeCaseMemberNames.withDefaults
@@ -37,7 +32,8 @@ object Matcher {
     filteredShops
   }
 
-  def mostApplicableCloseShops(userLocations: UserLocations, shops: Shops, top: Int): WrappedShops = {
+  // shops the are frequently being passed by
+  def frequentShops(userLocations: UserLocations, shops: Shops, top: Int): WrappedShops = {
 
     // go over user locations and see how many times user gets close to each of the close shops
     val shopsWithFrequency: NonEmptyList[(Feature[Shop], Int)] =
@@ -49,15 +45,17 @@ object Matcher {
     toNonEmptyList(topShopsByFrequency, NoCloseShopsFound)
   }
 
-  def usersLocations(userId: Long): CollectionOf[UserLocation] = for {
+  // get user's points by id
+  def userLocations(userId: Long): CollectionOf[UserLocation] = for {
     userList <- userLocations.map(l => l.filter(_.properties.userId == userId))
     nonEmptyLocations <- toNonEmptyList(userList, NoUserLocationsFound)
   } yield nonEmptyLocations
 
-  def getShops(userId: Long, top: Int): Either[MatcherError, Shops] = for {
-    locations <- usersLocations(userId)
+  // find most applicable shops
+  def mostApplicableShops(userId: Long, top: Int): Either[MatcherError, Shops] = for {
+    locations <- userLocations(userId)
     shops <- closeShops(locations)
-    resultingShops <- mostApplicableCloseShops(locations, shops, top)
+    resultingShops <- frequentShops(locations, shops, top)
   } yield resultingShops
 
 }
