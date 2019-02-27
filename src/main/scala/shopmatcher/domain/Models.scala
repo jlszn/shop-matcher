@@ -1,6 +1,6 @@
 package shopmatcher.domain
 
-import java.time.Instant
+import java.time.{Instant, LocalDate}
 
 import cats.data.NonEmptyList
 import shopmatcher.Point
@@ -14,13 +14,10 @@ case class Shop(gmlId: String,
                 porX: Int,
                 porY: Int) extends Properties
 
-case class UserLocation(userId: Long,
-                        userName: String,
-                        timestamp: Instant,
-                        dateOfBirth: Instant,
-                        inseeComm: Int,
-                        porX: Int,
-                        porY: Int) extends Properties
+case class User(userId: Long,
+                userName: String,
+                timestamp: LocalDate,
+                dateOfBirth: LocalDate) extends Properties
 
 case class Geometry(`type`: String, coordinates: Point)
 
@@ -34,3 +31,5 @@ sealed trait Distance // distance of passing by
 case object Close extends Distance
 
 case object NotClose extends Distance
+
+case object Inside extends Distance

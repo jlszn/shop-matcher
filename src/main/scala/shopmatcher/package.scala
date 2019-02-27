@@ -1,18 +1,19 @@
 import cats.data.NonEmptyList
-import shopmatcher.domain._
+import shopmatcher.domain.{MatcherError, _}
 
 package object shopmatcher {
 
-  type CollectionOf[A <: Properties] = Either[MatcherError, NonEmptyList[Feature[A]]]
+  type CollectionOf[A <: Properties] = Either[Errors, NonEmptyList[Feature[A]]]
 
   type Point = (Double, Double)
 
-  type WrappedShops = Either[MatcherError, NonEmptyList[Feature[Shop]]]
+
+  type WrappedShops = Either[Errors, NonEmptyList[Feature[Shop]]]
 
   type Shops = NonEmptyList[Feature[Shop]]
 
-  type UserLocations = NonEmptyList[Feature[UserLocation]]
+  type Users = NonEmptyList[Feature[User]]
 
-  def toNonEmptyList[A](list: List[A], error: MatcherError): Either[MatcherError, NonEmptyList[A]] = NonEmptyList.fromList(list).toRight(error)
+  type Errors = List[MatcherError]
 
 }

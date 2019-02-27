@@ -14,10 +14,7 @@
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1995-01-01T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1995-01-01T00:00:00.511Z"
       }
     },
     {
@@ -33,10 +30,7 @@
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:47.511Z",
-        "date_of_birth": "1995-05-05T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1995-05-05T00:00:00.511Z"
       }
     },
     {
@@ -52,10 +46,7 @@
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:57.511Z",
-        "date_of_birth": "1995-05-05T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1995-05-05T00:00:00.511Z"
       }
     },
     {
@@ -71,10 +62,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1963-08-08T00:00:00.511Z"
       }
     },
     {
@@ -90,10 +78,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:47.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1963-08-08T00:00:00.511Z"
       }
     },
     {
@@ -109,10 +94,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:57.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1963-08-08T00:00:00.511Z"
       }
     },
     {
@@ -128,10 +110,7 @@
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1984-06-06T00:00:00.511Z"
       }
     },
     {
@@ -147,10 +126,7 @@
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:44:47.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1984-06-06T00:00:00.511Z"
       }
     },
     {
@@ -166,10 +142,7 @@
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:57:20.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z",
-        "insee_comm": "35361",
-        "por_x": 297025,
-        "por_y": 2408370
+        "date_of_birth": "1984-06-06T00:00:00.511Z"
       }
     }
   ]

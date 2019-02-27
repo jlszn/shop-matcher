@@ -7,21 +7,22 @@ import io.circe.generic.extras.semiauto.deriveDecoder
 import shopmatcher.domain._
 import shopmatcher.utils.DistanceUtils._
 import shopmatcher.utils.Parser
+import shopmatcher.utils.ListUtil._
 
 object Matcher {
 
   implicit val config: Configuration = Configuration.default.withSnakeCaseMemberNames.withDefaults
-  implicit val userPropertiesDecoder: Decoder[UserLocation] = deriveDecoder
+  implicit val userPropertiesDecoder: Decoder[User] = deriveDecoder
   implicit val shopPropertiesDecoder: Decoder[Shop] = deriveDecoder
 
   val shops: CollectionOf[Shop] = Parser.readObjects[Shop]("testdata/shops.geojson")
-  val userLocations: CollectionOf[UserLocation] = Parser.readObjects[UserLocation]("testdata/users.geojson")
+  val userLocations: CollectionOf[User] = Parser.readObjects[User]("testdata/users.geojson")
 
   // 'passed by' means there exists a UserLocation that is in the area of 'passing by'
   // the area is set in rules and can be changed anytime
-  def closeShops(userLocations: UserLocations): WrappedShops = {
+  def closeShops(userLocations: Users): WrappedShops = {
 
-    val shopsAndDistances: Either[MatcherError, NonEmptyList[(Feature[Shop], Distance)]] =
+    val shopsAndDistances: Either[Errors, NonEmptyList[(Feature[Shop], Distance)]] =
       shops.map(_.map(shop => shop -> averageCloseness(userLocations, shop.geometry.coordinates)))
 
     val filteredShops: WrappedShops = for {
@@ -33,7 +34,7 @@ object Matcher {
   }
 
   // shops the are frequently being passed by
-  def frequentShops(userLocations: UserLocations, shops: Shops, top: Int): WrappedShops = {
+  def frequentShops(userLocations: Users, shops: Shops, top: Int): WrappedShops = {
 
     // go over user locations and see how many times user gets close to each of the close shops
     val shopsWithFrequency: NonEmptyList[(Feature[Shop], Int)] =
@@ -46,13 +47,13 @@ object Matcher {
   }
 
   // get user's points by id
-  def userLocations(userId: Long): CollectionOf[UserLocation] = for {
+  def userLocations(userId: Long): CollectionOf[User] = for {
     userList <- userLocations.map(l => l.filter(_.properties.userId == userId))
     nonEmptyLocations <- toNonEmptyList(userList, NoUserLocationsFound)
   } yield nonEmptyLocations
 
   // find most applicable shops
-  def mostApplicableShops(userId: Long, top: Int): Either[MatcherError, Shops] = for {
+  def mostApplicableShops(userId: Long, top: Int): Either[Errors, Shops] = for {
     locations <- userLocations(userId)
     shops <- closeShops(locations)
     resultingShops <- frequentShops(locations, shops, top)

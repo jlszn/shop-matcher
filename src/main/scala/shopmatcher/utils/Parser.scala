@@ -13,7 +13,7 @@ import scala.io.Source
 object Parser /* extends App*/ {
 
   implicit val config: Configuration = Configuration.default.withSnakeCaseMemberNames.withDefaults
-  implicit val userPropertiesDecoder: Decoder[UserLocation] = deriveDecoder
+  implicit val userPropertiesDecoder: Decoder[User] = deriveDecoder
   implicit val shopPropertiesDecoder: Decoder[Shop] = deriveDecoder
 
   def readGeoJson(path: String): String = Source.fromResource(path).mkString
