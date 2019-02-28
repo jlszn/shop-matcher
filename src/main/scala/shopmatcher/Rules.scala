@@ -6,6 +6,6 @@ object Rules {
   val close: Int = 400
 
   // meters to the shop point for user to be considered inside
-  val inside: Int = 5
+  val inside: Int = 10
 
 }

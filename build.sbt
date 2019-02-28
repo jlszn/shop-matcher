@@ -11,7 +11,6 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-generic",
   "io.circe" %% "circe-parser",
   "io.circe" %% "circe-generic-extras",
-//  "io.circe" %% "circe-derivation"
 ).map(_ % circeVersion)
 
 libraryDependencies += "io.circe" %% "circe-derivation" % "0.11.0-M1"

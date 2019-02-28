@@ -6,15 +6,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.99321958555902,
-          40.742294537913544
+          -73.99672865867615,
+          40.737868314868884
         ]
       },
       "properties": {
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1995-01-01T00:00:00.511Z"
+        "date_of_birth": "1992-06-06"
       }
     },
     {
@@ -22,15 +22,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.99343416228021,
-          40.74198361317637
+          -73.99672865867615,
+          40.737868314868884
         ]
       },
       "properties": {
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:47.511Z",
-        "date_of_birth": "1995-05-05T00:00:00.511Z"
+        "date_of_birth": "1992-06-06"
       }
     },
     {
@@ -38,15 +38,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.99385071148532,
-          40.74147230830893
+          -73.99672865867615,
+          40.737868314868884
         ]
       },
       "properties": {
         "user_id": "1",
         "user_name": "Ann Smith",
         "timestamp": "2019-01-01T19:43:57.511Z",
-        "date_of_birth": "1995-05-05T00:00:00.511Z"
+        "date_of_birth": "1992-06-06"
       }
     },
     {
@@ -62,7 +62,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z"
+        "date_of_birth": "1963-06-06"
       }
     },
     {
@@ -78,7 +78,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:47.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z"
+        "date_of_birth": "1963-06-06"
       }
     },
     {
@@ -94,7 +94,7 @@
         "user_id": "2",
         "user_name": "Sam Johnson",
         "timestamp": "2019-01-01T19:43:57.511Z",
-        "date_of_birth": "1963-08-08T00:00:00.511Z"
+        "date_of_birth": "1963-06-06"
       }
     },
     {
@@ -102,15 +102,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.99315069803527,
-          40.743912696455205
+          -73.99271607398987,
+          40.74261970536702
         ]
       },
       "properties": {
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:43:37.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z"
+        "date_of_birth": "1984-06-06"
       }
     },
     {
@@ -118,15 +118,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.99250318564953,
-          40.74362902867256
+          -73.99271607398987,
+          40.74261970536702
         ]
       },
       "properties": {
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:44:47.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z"
+        "date_of_birth": "1984-06-06"
       }
     },
     {
@@ -134,15 +134,527 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.9912747339207,
-          40.74314944136035
+          -73.99271607398987,
+          40.74261970536702
         ]
       },
       "properties": {
         "user_id": "3",
         "user_name": "Mary Collins",
         "timestamp": "2019-01-01T19:57:20.511Z",
-        "date_of_birth": "1984-06-06T00:00:00.511Z"
+        "date_of_birth": "1984-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "user_id": "4",
+        "user_name": "Sam Hughs",
+        "timestamp": "2019-01-01T19:58:20.511Z",
+        "date_of_birth": "1970-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "5",
+        "user_name": "Jack Whitehall",
+        "timestamp": "2019-01-01T19:40:20.511Z",
+        "date_of_birth": "1995-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "6",
+        "user_name": "Kate Mane",
+        "timestamp": "2019-01-01T19:17:20.511Z",
+        "date_of_birth": "2001-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "7",
+        "user_name": "Kelly Jackson",
+        "timestamp": "2019-01-01T19:00:20.511Z",
+        "date_of_birth": "1960-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "user_id": "8",
+        "user_name": "Daniel Nicholson",
+        "timestamp": "2019-01-01T19:27:20.511Z",
+        "date_of_birth": "1973-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "9",
+        "user_name": "Jean Craig",
+        "timestamp": "2019-01-01T19:37:20.511Z",
+        "date_of_birth": "1995-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "10",
+        "user_name": "Stan Smith",
+        "timestamp": "2019-01-01T19:27:20.511Z",
+        "date_of_birth": "1995-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "11",
+        "user_name": "Mary Black",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "2002-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "12",
+        "user_name": "John Collins",
+        "timestamp": "2019-01-01T19:57:20.511Z",
+        "date_of_birth": "1960-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "user_id": "13",
+        "user_name": "Glen Drench",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "1970-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "14",
+        "user_name": "Mary Smith",
+        "timestamp": "2019-01-01T19:43:57.511Z",
+        "date_of_birth": "1990-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "14",
+        "user_name": "Mary Smith",
+        "timestamp": "2019-01-01T19:44:01.511Z",
+        "date_of_birth": "1990-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "14",
+        "user_name": "Mary Smith",
+        "timestamp": "2019-01-01T19:44:04.511Z",
+        "date_of_birth": "1990-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "15",
+        "user_name": "Sam Grey",
+        "timestamp": "2019-01-01T19:43:37.511Z",
+        "date_of_birth": "1968-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "15",
+        "user_name": "Sam Grey",
+        "timestamp": "2019-01-01T19:43:47.511Z",
+        "date_of_birth": "1968-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "15",
+        "user_name": "Sam Grey",
+        "timestamp": "2019-01-01T19:43:57.511Z",
+        "date_of_birth": "1968-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "16",
+        "user_name": "Mary Chang",
+        "timestamp": "2019-01-01T19:43:37.511Z",
+        "date_of_birth": "1997-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "16",
+        "user_name": "Mary Chang",
+        "timestamp": "2019-01-01T19:44:47.511Z",
+        "date_of_birth": "1997-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "16",
+        "user_name": "Mary Chang",
+        "timestamp": "2019-01-01T19:57:20.511Z",
+        "date_of_birth": "1997-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "17",
+        "user_name": "Sam Hughs",
+        "timestamp": "2019-01-01T19:58:20.511Z",
+        "date_of_birth": "1967-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99271607398987,
+          40.74261970536702
+        ]
+      },
+      "properties": {
+        "user_id": "18",
+        "user_name": "Jack Whitehall",
+        "timestamp": "2019-01-01T19:40:20.511Z",
+        "date_of_birth": "1982-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "19",
+        "user_name": "Kate Mane",
+        "timestamp": "2019-01-01T19:17:20.511Z",
+        "date_of_birth": "2003-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "20",
+        "user_name": "Kelly Jackson",
+        "timestamp": "2019-01-01T19:00:20.511Z",
+        "date_of_birth": "1992-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "user_id": "21",
+        "user_name": "Daniel Nicholson",
+        "timestamp": "2019-01-01T19:27:20.511Z",
+        "date_of_birth": "1979-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99305403232574,
+          40.74320903296671
+        ]
+      },
+      "properties": {
+        "user_id": "22",
+        "user_name": "Jean Craig",
+        "timestamp": "2019-01-01T19:37:20.511Z",
+        "date_of_birth": "1972-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99271607398987,
+          40.74261970536702
+        ]
+      },
+      "properties": {
+        "user_id": "23",
+        "user_name": "Stan Smith",
+        "timestamp": "2019-01-01T19:27:20.511Z",
+        "date_of_birth": "1989-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "24",
+        "user_name": "Mary Black",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "2000-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "user_id": "25",
+        "user_name": "John Collins",
+        "timestamp": "2019-01-01T19:57:20.511Z",
+        "date_of_birth": "1963-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "user_id": "26",
+        "user_name": "Glen Drench",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "1950-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "user_id": "27",
+        "user_name": "Glen Drench",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "1998-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "28",
+        "user_name": "Ben Dean",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "2006-06-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "user_id": "29",
+        "user_name": "Ken Stamples",
+        "timestamp": "2019-01-01T19:51:20.511Z",
+        "date_of_birth": "2007-06-06"
       }
     }
   ]

@@ -16,8 +16,9 @@ case class Shop(gmlId: String,
 
 case class User(userId: Long,
                 userName: String,
-                timestamp: LocalDate,
+                timestamp: Instant,
                 dateOfBirth: LocalDate) extends Properties
+
 
 case class Geometry(`type`: String, coordinates: Point)
 
@@ -31,5 +32,3 @@ sealed trait Distance // distance of passing by
 case object Close extends Distance
 
 case object NotClose extends Distance
-
-case object Inside extends Distance
