@@ -1,6 +1,6 @@
 ## Shop Matcher
 
-Shop matcher is written in Scala, for JSON parsing uses circe.io
+Shop matcher is written in Scala, for JSON parsing uses [circe.io](https://github.com/circe/circe)
 
 #### Features:
 
