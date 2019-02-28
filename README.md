@@ -2,7 +2,7 @@
 
 Shop matcher is written in Scala, for JSON parsing uses circe.io
 
-####Features:
+#### Features:
 
 1. Matches the users with the most applicable shops 
 based on the distance as well as on the frequency they pass by
@@ -10,7 +10,7 @@ based on the distance as well as on the frequency they pass by
 2. Classifies users according to the age
  and finds the shops that each age group prefers
  
-####How to use:
+#### How to use:
 
 - go to the root of the folder
 - open sbt shell
@@ -18,7 +18,7 @@ based on the distance as well as on the frequency they pass by
 For example `run match 5 3` will output 3 most applicable shops for user with id 1
   - to test feature #2: print `run classify` 
 
-####Notes: 
+#### Notes: 
 The data that the application is using is stored in `src/main/resources/testdata`
 
 The rules of what shops are considered close are set 
