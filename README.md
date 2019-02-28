@@ -24,4 +24,4 @@ The data that the application is using is stored in `src/main/resources/testdata
 The rules of what shops are considered close are set 
 and can be changed in `src/main/scala/shopmatcher/Rules`:
 - by default shops that are within 400 meters of a user are considered close.
-- by default user is considered inside the shop if he is within 10 meters to it.
+- by default user is considered inside the shop if the are within 10 meters to it.
