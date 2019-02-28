@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
 ).map(_ % circeVersion)
 
 libraryDependencies += "io.circe" %% "circe-derivation" % "0.11.0-M1"
+
+libraryDependencies += "com.typesafe" % "config" % "1.3.0"

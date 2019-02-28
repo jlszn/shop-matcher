@@ -25,7 +25,7 @@ object Parser {
     readGeoJson(path)
   }
 
-  val shops: CollectionOf[Shop] = Parser.readObjects[Shop]("testdata/shops.geojson")
-  val userLocations: CollectionOf[User] = Parser.readObjects[User]("testdata/users.geojson")
+  val shops: CollectionOf[Shop] = Parser.readObjects[Shop](PathConfig.pathToShops)
+  val userLocations: CollectionOf[User] = Parser.readObjects[User](PathConfig.pathToUsers)
 
 }
