@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99672865867615,
+          40.737868314868884
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.1",
+        "shop_id": "1",
+        "shop_name": "McDonalds",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98682594299316,
+          40.744989177040736
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.2",
+        "shop_id": "2",
+        "shop_name": "Starbucks",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99271607398987,
+          40.74261970536702
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.3",
+        "shop_id": "3",
+        "shop_name": "Best buy",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98881804288987,
+          40.74005921343167
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.4",
+        "shop_id": "4",
+        "shop_name": "Almond",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9910638332367,
+          40.73990873115273
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.5",
+        "shop_id": "5",
+        "shop_name": "Nike Running",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99262756109238,
+          40.741725543175214
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.6",
+        "shop_id": "6",
+        "shop_name": "BXL Zoute",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98967444896698,
+          40.741867797055235
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.7",
+        "shop_id": "7",
+        "shop_name": "Best buy",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99237275123596,
+          40.74237990850425
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.8",
+        "shop_id": "8",
+        "shop_name": "Outback Steakhouse",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99305403232574,
+          40.74320903296671
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.8",
+        "shop_id": "8",
+        "shop_name": "The Ups store",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99226546287537,
+          40.743948733322064
+        ]
+      },
+      "properties": {
+        "gml_id": "shop.9",
+        "shop_id": "9",
+        "shop_name": "NYC Wine Merchants",
+        "insee_comm": "35361",
+        "por_x": 297025,
+        "por_y": 2408370
+      }
+    }
+  ]
+}
